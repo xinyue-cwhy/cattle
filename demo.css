@@ -3,9 +3,11 @@ div{
 }
 input{
   display: inline-block;
+  text-align: center;
+  line-height: 30px;
   width: 150px;
   height: 30px;
-  font-size: 15px;
+  font-size: 33px;
 }
 button{
   margin-top: 20px;
