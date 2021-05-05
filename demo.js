@@ -23,6 +23,9 @@ function GetNumberOfDays(date1, date2) {//获得天数
   var a1 = Date.parse(new Date(date1));
   var a2 = Date.parse(new Date(date2));
   var day = parseInt((a2 - a1) / (1000 * 60 * 60 * 24));//核心：时间戳相减，然后除以天数
+  if (day == 0) {
+    day = '明'
+  }
   return '倒计时：<br>' + day + '天' + '（不含生产当天）';
 };
 

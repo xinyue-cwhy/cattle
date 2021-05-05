@@ -1,3 +1,19 @@
 div{
   text-align: center;
 }
+input{
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+}
+button{
+  margin-top: 20px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+
+p{
+  font-size: 20px;
+}
